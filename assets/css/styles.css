@@ -623,9 +623,14 @@ width: 1048px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #F9F9F9;
     width: 28px;
     height: 28px;
     border-radius: 3px;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
