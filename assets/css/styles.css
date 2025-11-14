@@ -65,6 +65,7 @@ a {
 .hero-wrap {
     display: flex; 
     flex-direction: column; 
+    justify-content: center;
     position: relative;
     background: #E6F0FF;
     height: calc(100vh - 90px);
@@ -110,16 +111,11 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -127,7 +123,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-size: 6.4rem;
     font-weight: 700;
@@ -135,7 +131,7 @@ a {
     margin-top: 8px;
 }    
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.8rem;
@@ -144,7 +140,7 @@ a {
     /* text-transform: capitalize; viết hoa chữ cái đầu  */
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     min-width: 170px;
     margin-top: 40px;
 }
